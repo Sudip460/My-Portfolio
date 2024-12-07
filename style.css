@@ -150,8 +150,16 @@ h4 {
 }
 
 
+.JAVA {
+    width: 75%;
+    height: .5rem;
+    background-color: #61dafb;
+    margin: 1rem 0;
+    border-radius: 12px;
+}
+
 .C {
-    width: 95%;
+    width: 85%;
     height: .5rem;
     background-color: #21e54b;
     margin: 1rem 0;
@@ -159,7 +167,7 @@ h4 {
 }
 
 .html {
-    width: 90%;
+    width: 80%;
     height: .5rem;
     background-color: #e54c21;
     margin: 1rem 0;
@@ -167,7 +175,7 @@ h4 {
 }
 
 .css {
-    width: 80%;
+    width: 75%;
     height: .5rem;
     background-color: #00a0e4;
     margin: 1rem 0;
@@ -175,28 +183,14 @@ h4 {
 }
 
 .js {
-    width: 65%;
+    width: 30%;
     height: .5rem;
     background-color: yellow;
     margin: 1rem 0;
     border-radius: 12px;
 }
 
-.bootstrap {
-    width: 50%;
-    height: .5rem;
-    background-color: #7952b3;
-    margin: 1rem 0;
-    border-radius: 12px;
-}
 
-.JAVA {
-    width: 30%;
-    height: .5rem;
-    background-color: #61dafb;
-    margin: 1rem 0;
-    border-radius: 12px;
-}
 
 .learning {
     width: 100%;
@@ -221,50 +215,6 @@ h4 {
 
 .right-skills {
     right: 0;
-}
-
-
-/* Services Container */
-.services-container {
-    margin: auto;
-    overflow: hidden;
-    width: 80%;
-}
-
-.test-item {
-    width: 20rem;
-    margin: 0 2rem;
-    background: #2c2c6c;
-    border: .5px solid #2c2c6c;
-    border-radius: 1.5rem;
-    padding: 2rem 1rem;
-    text-align: center;
-    transition: all .5s;
-}
-
-.test-item:hover {
-    background-color: transparent;
-}
-
-.test-item img {
-    margin-bottom: 1.3rem;
-    width: 80%;
-}
-
-.test-item h1 {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-}
-
-.services li .fa-solid {
-    font-size: 2rem;
-    color: white;
-    margin-bottom: 1.3rem;
-}
-
-.test-item p {
-    line-height: 20px;
-    font-size: .9rem;
 }
 
 
