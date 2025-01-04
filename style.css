@@ -92,7 +92,8 @@ h4 {
     background-size: cover;
     border-radius: 62%;
     height: 100%;
-    box-shadow: rgba(0, 0, 0, 0.458) 2.4px 2.4px 3.2px;
+    /* box-shadow: rgba(0, 0, 0, 0.458) 2.4px 2.4px 3.2px; */
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 .circle {
@@ -139,6 +140,8 @@ h4 {
 
 .skills-left img {
     width: 70%;
+    filter: drop-shadow(  0.6rem 0.6rem 1rem  #161629 )
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
 }
 
 .skills-right {
@@ -233,10 +236,12 @@ h4 {
 }
 
 .image-container img {
-    border-radius: 1rem;
+    /* border-radius: 1rem; */
+    max-width: 100%;
+    filter: drop-shadow(  0.3rem 0.3rem 0.5rem  #252546 )
 }
 
-.image-container .p-one {
+/* .image-container .p-one {
     width: 200px;
 }
 
@@ -246,7 +251,7 @@ h4 {
 
 .p-four {
     background: url('Screenshot 2024-01-09 180441.png');
-}
+} */
 
 .projects-item {
     overflow: hidden;
