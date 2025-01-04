@@ -238,7 +238,7 @@ h4 {
 .image-container img {
     /* border-radius: 1rem; */
     max-width: 100%;
-    filter: drop-shadow(  0.3rem 0.3rem 0.5rem  #252546 )
+    filter: drop-shadow(  0.3rem 0.3rem 0.5rem  #252546 );
 }
 
 /* .image-container .p-one {
